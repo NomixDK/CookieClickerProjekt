@@ -1,0 +1,323 @@
+body {
+    background-color: rgb(72, 161, 54);
+    background-image: url("BG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  h2 {
+    color: rgb(255, 242, 204);
+    margin-left: 17%;
+    }
+
+  h3 {
+    font-size: larger;
+    color: rgb(255, 242, 204);
+    margin-left: 19%;
+    }
+
+.bananaImg {
+    margin-left: 175px;
+    margin-top: 15%;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+    @-webkit-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+    }
+    
+    @-moz-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+    }
+
+    @keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+    }
+
+.buttonMonkey {
+    position: fixed;
+    right: 1%;
+    top: -3%;
+    margin-top: 50px;
+    background-color: #996032;
+    border-radius: 4px; 
+}
+
+.monkeyPT {
+    text-align: left; 
+    padding-left: 1%; 
+}
+
+ 
+
+.monkeysT {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.monkeyBorder {
+    width: 500px;
+    height: 100px;
+    margin-left: auto; 
+    margin-right: 0;
+    margin-top: -575px;
+    border-width: 5px;
+    vertical-align: middle;
+    border-style: double;
+    border: 2px solid rgb(46, 35, 20);
+    background-image: url("woodV.png");
+    border-radius: 5px;
+}
+
+
+
+.buttonBField {
+    position: fixed;
+    right: 1%;
+    top: 9%;
+    margin-top: 50px;
+    background-color: #996032;
+    border-radius: 4px; 
+}
+
+.BFieldPT {
+    text-align: left; 
+    padding-left: 1%; 
+}
+
+.BFieldsT {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.BFieldBorder {
+    width: 500px;
+    height: 100px;
+    margin-left: auto; 
+    margin-right: 0;
+    border-width: 5px;
+    vertical-align: m;
+    border-style: double;
+    border: 2px solid rgb(46, 35, 20);
+    background-image: url("woodV.png");
+    border-radius: 5px;
+}
+
+
+
+.buttonBBank {
+    position: fixed;
+    right: 1%;
+    top: 21%;
+    margin-top: 50px;
+    background-color: #996032;
+    border-radius: 4px; 
+}
+
+.BBankPT {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.BBanksT {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.BBankBorder {
+    width: 500px;
+    height: 100px;
+    margin-left: auto; 
+    margin-right: 0;
+    border-width: 5px;
+    vertical-align: m;
+    border-style: double;
+    border: 2px solid rgb(46, 35, 20);
+    background-image: url("woodV.png");
+    border-radius: 5px;
+}
+
+
+.buttonBSStation {
+    position: fixed;
+    right: 1%;
+    top: 33%;
+    margin-top: 50px;
+    background-color: #996032;
+    border-radius: 4px; 
+}
+
+.BSStationPT {
+    text-align: left; 
+    padding-left: 1%;
+}
+
+.BSStationsT {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.BSStationBorder {
+    width: 500px;
+    height: 100px;
+    margin-left: auto; 
+    margin-right: 0;
+    border-width: 5px;
+    vertical-align: m;
+    border-style: double;
+    border: 2px solid rgb(46, 35, 20);
+    background-image: url("woodV.png");
+    border-radius: 5px;
+}
+
+
+
+.clickBorder {
+    width: 600px;
+    height: 708px;
+    top: 100px;
+    position: absolute;
+    border: 4px solid rgb(46, 35, 20);
+    border-radius: 5px;
+    background-image: url("woodH.png");
+
+}
+
+
+
+.upgradesBorder {
+    width: 250px;
+    height: 800px;
+    top: 1%;
+    margin-left: 637px;
+    position: absolute;
+    border: 4px solid rgb(46, 35, 20);
+    border-radius: 5px;  
+    background-image: url("woodH.png");
+
+}
+
+.upgradesT {
+    font-size: larger;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.upgrades2T {
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttonUC1 {
+    margin-left: 7px;
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/finger.png");
+    background-size: 100%;
+
+}
+
+.buttonUC2 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/finger2.png");
+    background-size: 100%;
+}
+
+.buttonUC3 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px;
+    background-image: url("icons/finger3.png");
+    background-size: 100%;
+}
+
+.buttonUC4 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/finger4.png");
+    background-size: 100%;
+}
+
+
+.buttonFM1 {
+    margin-left: 7px;
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/monkey.png");
+    background-size: 100%;
+}
+
+.buttonFM2 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px;
+    background-image: url("icons/monkey2.png");
+    background-size: 100%;
+}
+
+.buttonFM3 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/monkey3.png");
+    background-size: 100%;
+}
+
+.buttonFM4 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/monkey4.png");
+    background-size: 100%;
+}
+
+
+.buttonBF1 {
+    margin-left: 6px;
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/can.png");
+    background-size: 100%;
+}
+
+.buttonBF2 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px;
+    background-image: url("icons/can2.png");
+    background-size: 100%;
+}
+
+.buttonBF3 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/can3.png");
+    background-size: 100%;
+}
+
+.buttonBF4 {
+    padding: 26px 26px;
+    background-color: #996032;
+    border-radius: 4px; 
+    background-image: url("icons/can4.png");
+    background-size: 100%;
+}
+
+.CPBorder {
+    right: 1%;
+    top: 95%;
+    z-index: 10;
+    border: 2px solid rgb(46, 35, 20);
+    border-radius: 5px;  
+    position: absolute;
+}

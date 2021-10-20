@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banana Clicker</title>
+</head>
+
+<body> 
+	<link rel="stylesheet" href="style.css">
+
+	<h2> Bananas: <b id="currentScore" ></b> </h2>
+	<h3> BPS: <b id="currentBPS"></b> </h3>
+	<div class="clickBorder"></div>
+	
+</div>
+
+	<div onclick = "add()">
+	<img class="bananaImg" src="banana.png"/>
+	</div>
+
+	<div class="monkeyBorder">	
+		<button class="buttonMonkey" onclick="buyFMonkey()">Farmer Monkey = 0.5 bps</button>
+		<p class="monkeyPT"> Farmer Monkey Price: <b id="currentFMonkeyPrice"></b> </p>
+		<p class="monkeysT"> Farmer Monkeys: <b id="currentFMonkeys"></b> </p>	
+	</div>
+
+	<div class="BFieldBorder">	
+		<button class="buttonBField" onclick="buyBField()">Banana Field = 2 bps</button>
+		<p class="BFieldPT"> Banana Field Price: <b id="currentBFieldPrice"></b> </p>	
+		<p class="BFieldsT"> Banana Field: <b id="currentBFields"></b> </p>
+	</div>
+
+	<div class="BBankBorder">	
+		<button class="buttonBBank" onclick="buyBBank()">Banana Bank = 10 bps</button>
+		<p class="BBankPT"> Banana Bank Price: <b id="currentBBankPrice"></b> </p>	
+		<p class="BBanksT"> Banana Bank: <b id="currentBBanks"></b> </p>
+	</div>
+
+	<div class="BSStationBorder">	
+		<button class="buttonBSStation" onclick="buyBSStation()">Banana Space Station = 100 bps</button>
+		<p class="BSStationPT"> Banana Space Station Price: <b id="currentBSStationPrice"></b> </p>	
+		<p class="BSStationsT"> Banana Bank: <b id="currentBSStations"></b> </p>
+	</div>
+
+	<div class="upgradesBorder">
+		<p class = upgradesT>Upgrades</p>
+		<p class = upgrades2T>Click</p>
+		<button class="buttonUC1" title="Clicks become twice as effective, costs 100 Bananas" onclick="buyUC1(this)"></button>
+		<button class="buttonUC2" title="Clicks become twice as effective, costs 500 Bananas" onclick="buyUC2(this)"></button>
+		<button class="buttonUC3" title="Clicks become twice as effective, costs 1000 Bananas" onclick="buyUC3(this)"></button>
+		<button class="buttonUC4" title="Clicks become twice as effective, costs 2000 Bananas" onclick="buyUC4(this)"></button>
+		
+
+		<p class = upgrades2T>Farmer Monkey</p>
+		<button class="buttonFM1" title="Farmer Monkeys become twice as effective, costs 100 Bananas" onclick="buyM1(this)"></button>
+		<button class="buttonFM2" title="Farmer Monkeys become twice as effective, costs 500 Bananas" onclick="buyM2(this)"></button>
+		<button class="buttonFM3" title="Farmer Monkeys become twice as effective, costs 1000 Bananas" onclick="buyM3(this)"></button>
+		<button class="buttonFM4" title="Farmer Monkeys become twice as effective, costs 2000 Bananas" onclick="buyM4(this)"></button>
+
+		<p class = upgrades2T>Banana Fields</p>
+		<button class="buttonBF1" title="Banana Fields become twice as effective, costs 200 Bananas" onclick="buyBF1(this)"></button>
+		<button class="buttonBF2" title="Banana Fields become twice as effective, costs 750 Bananas" onclick="buyBF2(this)"></button>
+		<button class="buttonBF3" title="Banana Fields become twice as effective, costs 1500 Bananas" onclick="buyBF3(this)"></button>
+		<button class="buttonBF4" title="Banana Fields become twice as effective, costs 3000 Bananas" onclick="buyBF4(this)"></button>
+
+		
+	</div>
+
+
+	<div class="CPBorder">
+	<button class="buttonsCP" title="Easy points for a dirty cheater" onclick="CP()">Cheat Points</button>
+	</div>
+
+
+	<script src="script.js">
+	</script>
+
+
+</body>
+</html>
